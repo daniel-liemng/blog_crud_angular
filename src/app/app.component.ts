@@ -5,6 +5,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatDialog } from '@angular/material/dialog';
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
+import { CoreService } from './core/core.service';
 
 @Component({
   selector: 'app-root',
@@ -34,7 +35,8 @@ export class AppComponent implements OnInit {
 
   constructor(
     private _dialog: MatDialog,
-    private _empService: EmployeeService
+    private _empService: EmployeeService,
+    private _coreService: CoreService
   ) {}
 
   ngOnInit(): void {
@@ -77,7 +79,8 @@ export class AppComponent implements OnInit {
   deleteEmployee(id: number) {
     this._empService.deleteEmployee(id).subscribe({
       next: (res) => {
-        alert('Employee Deleted');
+        // alert('Employee Deleted');
+        this._coreService.openSnackBar('Employee Deleted');
         this.getEmployeeList(); // update list after delete
       },
       error: (err) => {

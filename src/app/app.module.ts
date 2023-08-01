@@ -20,6 +20,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -45,6 +46,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatTableModule,
     MatSortModule,
     MatPaginatorModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
