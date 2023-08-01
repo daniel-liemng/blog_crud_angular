@@ -1,0 +1,81 @@
+{
+  "employees": [
+    {
+      "firstName": "fff66644",
+      "lastName": "fff66644",
+      "email": "fff66644",
+      "dob": "2023-08-24T04:00:00.000Z",
+      "gender": "others",
+      "education": "Diploma",
+      "company": "fff66644",
+      "experience": 466644,
+      "salary": 466644,
+      "id": 1
+    },
+    {
+      "firstName": "yyy1255",
+      "lastName": "yy55",
+      "email": "yyy55",
+      "dob": "2023-08-23T04:00:00.000Z",
+      "gender": "female",
+      "education": "Diploma",
+      "company": "yy55",
+      "experience": 455,
+      "salary": 455,
+      "id": 2
+    },
+    {
+      "firstName": "nnn33",
+      "lastName": "nn33",
+      "email": "nnn33",
+      "dob": "2023-08-23T04:00:00.000Z",
+      "gender": "others",
+      "education": "Master",
+      "company": "eeedd33",
+      "experience": 733,
+      "salary": 733,
+      "id": 3
+    },
+    {
+      "firstName": "kkk",
+      "lastName": "kkkk",
+      "email": "kkk",
+      "dob": "2023-08-21T04:00:00.000Z",
+      "gender": "",
+      "education": "Degree",
+      "company": "kkk",
+      "experience": 6,
+      "salary": 6,
+      "id": 4
+    },
+    {
+      "firstName": "zzz",
+      "lastName": "zzz",
+      "email": "zz",
+      "dob": "2023-08-16T04:00:00.000Z",
+      "gender": "male",
+      "education": "Degree",
+      "company": "zzz",
+      "experience": 4,
+      "salary": 4,
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
